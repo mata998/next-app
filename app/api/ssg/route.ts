@@ -3,5 +3,5 @@ import { NextResponse } from "next/server";
 export async function GET() {
   const random = Math.random();
 
-  return NextResponse.json({ random });
+  return NextResponse.json({ uvekIsti: random });
 }
